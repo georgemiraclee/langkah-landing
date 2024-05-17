@@ -57,23 +57,23 @@ const Header = () => {
       >
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
-          <div className="w-60 max-w-full px-4">
-            <Link
-              href="/"
-              className={`navbar-logo block w-full ${
-                sticky ? "py-2" : "py-5"
-              } `}
-            >
-              <h1 className="font-bold text-xl" style={{ color: "#0C5A67", fontSize: "1.5rem" }}>LANGKAH</h1>
-            </Link>
-          </div>
+            <div className="w-60 max-w-full px-4">
+              <Link
+                href="/"
+                className={`navbar-logo block w-full ${
+                  sticky ? "py-2" : "py-5"
+                } `}
+              >
+                <h1 className="font-bold text-xl" style={{ color: "#0C5A67", fontSize: "1.5rem" }}>LANGKAH</h1>
+              </Link>
+            </div>
             <div className="flex w-full items-center justify-between px-4 justify-end"> {/* Posisi menu diatur ke kanan */}
               <div>
                 <button
                   onClick={navbarToggleHandler}
                   id="navbarToggler"
                   aria-label="Mobile Menu"
-                  className="absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden"
+                  className="absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-[#81B6BE] focus:ring-2 lg:hidden"
                 >
                   <span
                     className={`relative my-1.5 block h-0.5 w-[30px] transition-all duration-300 ${
@@ -120,8 +120,8 @@ const Header = () => {
                               onClick={navbarToggleHandler}
                               scroll={false}
                               href={menuItem.path}
-                              className={`ud-menu-scroll flex py-2 text-base text-dark group-hover:text-primary dark:text-white dark:group-hover:text-primary lg:inline-flex lg:px-0 lg:py-6 ${
-                                pathUrl === menuItem?.path && "text-primary"
+                              className={`ud-menu-scroll flex py-2 font-bold text-base text-dark group-hover:text-[#81B6BE] dark:text-white dark:group-hover:text-[#81B6BE] lg:inline-flex lg:px-0 lg:py-6 ${
+                                pathUrl === menuItem?.path && "text-[#81B6BE]"
                               }`}
                             >
                               {menuItem.title}
@@ -130,14 +130,14 @@ const Header = () => {
                             <Link
                               scroll={false}
                               href={menuItem.path}
-                              className={`ud-menu-scroll flex py-2 text-base lg:inline-flex lg:px-0 lg:py-6 ${
+                              className={`ud-menu-scroll flex py-2 font-bold text-base lg:inline-flex lg:px-0 lg:py-6 ${
                                 sticky
-                                  ? "text-dark group-hover:text-primary dark:text-white dark:group-hover:text-primary"
+                                  ? "text-dark group-hover:text-[#81B6BE] dark:text-white dark:group-hover:text-[#81B6BE]"
                                   : "text-body-color dark:text-white lg:text-white"
                               } ${
                                 pathUrl === menuItem?.path &&
                                 sticky &&
-                                "!text-primary"
+                                "!text-[#81B6BE]"
                               }`}
                             >
                               {menuItem.title}
@@ -149,7 +149,7 @@ const Header = () => {
                           {pathUrl !== "/" ? (
                             <button
                               onClick={() => handleSubmenu(index)}
-                              className={`ud-menu-scroll flex items-center justify-between py-2 text-base text-dark group-hover:text-primary dark:text-white dark:group-hover:text-primary lg:inline-flex lg:px-0 lg:py-6`}
+                              className={`ud-menu-scroll flex items-center justify-between py-2 font-bold text-base text-dark group-hover:text-[#81B6BE] dark:text-white dark:group-hover:text-[#81B6BE] lg:inline-flex lg:px-0 lg:py-6`}
                             >
                               {menuItem.title}
 
@@ -172,9 +172,9 @@ const Header = () => {
                           ) : (
                             <button
                               onClick={() => handleSubmenu(index)}
-                              className={`ud-menu-scroll flex items-center justify-between py-2 text-base lg:inline-flex lg:px-0 lg:py-6 ${
+                              className={`ud-menu-scroll flex items-center justify-between py-2 font-bold text-base lg:inline-flex lg:px-0 lg:py-6 ${
                                 sticky
-                                  ? "text-dark group-hover:text-primary dark:text-white dark:group-hover:text-primary"
+                                  ? "text-dark group-hover:text-[#81B6BE] dark:text-white dark:group-hover:text-[#81B6BE]"
                                   : "text-white"
                               }`}
                             >
@@ -207,10 +207,10 @@ const Header = () => {
                               <Link
                                 href={submenuItem.path}
                                 key={i}
-                                className={`block rounded px-4 py-[10px] text-sm ${
+                                className={`block rounded px-4 py-[10px] text-sm font-bold ${
                                   pathUrl === submenuItem.path
-                                    ? "text-primary"
-                                    : "text-body-color hover:text-primary dark:text-dark-6 dark:hover:text-primary"
+                                    ? "text-[#81B6BE]"
+                                    : "text-body-color hover:text-[#81B6BE] dark:text-dark-6 dark:hover:text-[#81B6BE]"
                                 }`}
                               >
                                 {submenuItem.title}
