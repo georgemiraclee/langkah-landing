@@ -29,8 +29,8 @@ export default function Home() {
       <About />
       <CallToAction />
       <Team />
-      <Contact />
       <Clients />
+      <Contact />
     </main>
   );
 }
