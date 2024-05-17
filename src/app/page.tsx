@@ -28,11 +28,8 @@ export default function Home() {
       <Features />
       <About />
       <CallToAction />
-      <Pricing />
       <Testimonials />
-      <Faq />
       <Team />
-      <HomeBlogSection posts={posts} />
       <Contact />
       <Clients />
     </main>
