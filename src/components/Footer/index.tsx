@@ -4,7 +4,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer
-      className="wow fadeInUp relative z-10 bg-[#090E34] pt-20 lg:pt-[100px]"
+      className="wow fadeInUp relative z-10 bg-[#81B6BE] pt-20 lg:pt-[100px]"
       data-wow-delay=".15s"
     >
       <div className="container">
@@ -13,22 +13,21 @@ const Footer = () => {
             <div className="mb-10 w-full">
               <Link href="/" className="mb-6 inline-block max-w-[160px]">
                 <Image
-                  src="/images/logo/logo-white.svg"
+                  src="/images/logo/logo.png"
                   alt="logo"
                   width={140}
                   height={30}
                   className="max-w-full"
                 />
               </Link>
-              <p className="mb-8 max-w-[270px] text-base text-gray-7">
-                We create digital experiences for brands and companies by using
-                technology.
+              <p className="mb-8 max-w-[270px] text-base text-white">
+                Langkah Kembang Anak
               </p>
               <div className="-mx-3 flex items-center">
                 <a
                   aria-label="social link"
                   href="/#"
-                  className="px-3 text-gray-7 hover:text-white"
+                  className="px-3 text-white hover:text-white"
                 >
                   <svg
                     width="22"
@@ -44,7 +43,7 @@ const Footer = () => {
                 <a
                   aria-label="social link"
                   href="/#"
-                  className="px-3 text-gray-7 hover:text-white"
+                  className="px-3 text-white hover:text-white"
                 >
                   <svg
                     width="22"
@@ -59,8 +58,8 @@ const Footer = () => {
                 </a>
                 <a
                   aria-label="social link"
-                  href="/#"
-                  className="px-3 text-gray-7 hover:text-white"
+                  href="https://www.instagram.com/langkahkembanganak"
+                  className="px-3 text-white hover:text-white"
                 >
                   <svg
                     width="22"
@@ -78,7 +77,7 @@ const Footer = () => {
                 <a
                   aria-label="social link"
                   href="/#"
-                  className="px-3 text-gray-7 hover:text-white"
+                  className="px-3 text-white hover:text-white"
                 >
                   <svg
                     width="22"
@@ -103,7 +102,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/#"
-                    className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
+                    className="mb-3 inline-block text-base text-white hover:text-primary"
                   >
                     Home
                   </a>
@@ -111,7 +110,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/#"
-                    className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
+                    className="mb-3 inline-block text-base text-white hover:text-primary"
                   >
                     Features
                   </a>
@@ -119,7 +118,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/#"
-                    className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
+                    className="mb-3 inline-block text-base text-white hover:text-primary"
                   >
                     About
                   </a>
@@ -127,7 +126,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/#"
-                    className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
+                    className="mb-3 inline-block text-base text-white hover:text-primary"
                   >
                     Testimonial
                   </a>
@@ -144,7 +143,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/#"
-                    className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
+                    className="mb-3 inline-block text-base text-white hover:text-primary"
                   >
                     How it works
                   </a>
@@ -152,7 +151,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/#"
-                    className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
+                    className="mb-3 inline-block text-base text-white hover:text-primary"
                   >
                     Privacy policy
                   </a>
@@ -160,7 +159,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/#"
-                    className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
+                    className="mb-3 inline-block text-base text-white hover:text-primary"
                   >
                     Terms of Service
                   </a>
@@ -168,7 +167,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/#"
-                    className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
+                    className="mb-3 inline-block text-base text-white hover:text-primary"
                   >
                     Refund policy
                   </a>
@@ -185,7 +184,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/#"
-                    className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
+                    className="mb-3 inline-block text-base text-white hover:text-primary"
                   >
                     LineIcons
                   </a>
@@ -193,7 +192,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/#"
-                    className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
+                    className="mb-3 inline-block text-base text-white hover:text-primary"
                   >
                     Next.js Templates
                   </a>
@@ -201,7 +200,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/#"
-                    className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
+                    className="mb-3 inline-block text-base text-white hover:text-primary"
                   >
                     TailAdmin
                   </a>
@@ -209,7 +208,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/#"
-                    className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
+                    className="mb-3 inline-block text-base text-white hover:text-primary"
                   >
                     PlainAdmin
                   </a>
@@ -226,7 +225,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/#"
-                    className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
+                    className="mb-3 inline-block text-base text-white hover:text-primary"
                   >
                     FAQ
                   </a>
@@ -234,7 +233,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/#"
-                    className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
+                    className="mb-3 inline-block text-base text-white hover:text-primary"
                   >
                     Blogs
                   </a>
@@ -242,7 +241,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/#"
-                    className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
+                    className="mb-3 inline-block text-base text-white hover:text-primary"
                   >
                     Support
                   </a>
@@ -250,7 +249,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/#"
-                    className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
+                    className="mb-3 inline-block text-base text-white hover:text-primary"
                   >
                     About
                   </a>
@@ -266,40 +265,12 @@ const Footer = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-2/3 lg:w-1/2">
               <div className="my-1">
-                <div className="-mx-3 flex items-center justify-center md:justify-start">
-                  <a
-                    href="/#"
-                    className="px-3 text-base text-gray-7 hover:text-white hover:underline"
-                  >
-                    Privacy policy
-                  </a>
-                  <a
-                    href="/#"
-                    className="px-3 text-base text-gray-7 hover:text-white hover:underline"
-                  >
-                    Legal notice
-                  </a>
-                  <a
-                    href="/#"
-                    className="px-3 text-base text-gray-7 hover:text-white hover:underline"
-                  >
-                    Terms of service
-                  </a>
-                </div>
               </div>
             </div>
             <div className="w-full px-4 md:w-1/3 lg:w-1/2">
               <div className="my-1 flex justify-center md:justify-end">
-                <p className="text-base text-gray-7">
-                  Designed and Developed by{" "}
-                  <a
-                    href="https://tailgrids.com"
-                    rel="nofollow noopner noreferrer"
-                    target="_blank"
-                    className="text-gray-1 hover:underline"
-                  >
-                    TailGrids and Next.js Templates
-                  </a>
+                <p className="text-base text-white">
+                © 2024 Langkah
                 </p>
               </div>
             </div>
