@@ -28,7 +28,6 @@ export default function Home() {
       <Features />
       <About />
       <CallToAction />
-      <Testimonials />
       <Team />
       <Contact />
       <Clients />
