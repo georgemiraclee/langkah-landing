@@ -1,38 +1,33 @@
 import { Client } from "@/types/client";
+
+
 export const clientsData: Client[] = [
   {
     id: 1,
-    title: "GrayGrids",
-    logo: "/images/brands/graygrids.svg",
-    logoWhite: "/images/brands/graygrids-white.svg",
+    title: "Kemdikbudristek",
+    logo: "/images/brands/kemdikbud.webp",
+    logoWhite: "/images/brands/kemdikbud.webp",
     link: "https://graygrids.com/",
   },
   {
     id: 2,
-    title: "Lineicons",
-    logo: "images/brands/lineicons.svg",
-    logoWhite: "/images/brands/lineicons-white.svg",
+    title: "Pekan Kreativitas Nasional",
+    logo: "/images/brands/pkm.jpg",
+    logoWhite: "/images/brands/pkm.webp",
     link: "https://lineicons.com/",
   },
   {
     id: 3,
-    title: "Uideck",
-    logo: "/images/brands/uideck.svg",
-    logoWhite: "/images/brands/uideck-white.svg",
+    title: "Universitas Diponegoro",
+    logo: "/images/brands/undip.jpeg",
+    logoWhite: "/images/brands/undip.jpeg",
     link: "https://uideck.com/",
   },
   {
     id: 4,
-    title: "AyroUI",
-    logo: "/images/brands/ayroui.svg",
-    logoWhite: "/images/brands/ayroui-white.svg",
+    title: "Kemahasiswaan Dikti",
+    logo: "/images/brands/kemahasiswaan.png",
+    logoWhite: "/images/brands/kemahasiswaan.png",
     link: "https://ayroui.com/",
-  },
-  {
-    id: 5,
-    title: "TailGrids",
-    logo: "/images/brands/tailgrids.svg",
-    logoWhite: "/images/brands/tailgrids-white.svg",
-    link: "https://tailgrids.com/",
   },
 ];

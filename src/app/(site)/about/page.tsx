@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import Team from "@/components/Team";
+import Clients from "@/components/Clients";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -14,6 +15,7 @@ const AboutPage = () => {
     <main>
       <About />
       <Team />
+      <Clients />
     </main>
   );
 };
