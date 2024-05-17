@@ -5,36 +5,36 @@ import SingleTeam from "./SingleTeam";
 const teamData: TeamType[] = [
   {
     id: 1,
-    name: "Adveen Desuza",
-    designation: "UI Designer",
-    image: "/images/team/team-01.png",
+    name: "Eli Amalia",
+    designation: "Chief Executive Officer",
+    image: "/images/team/eli.png",
     facebookLink: "/#",
     twitterLink: "/#",
     instagramLink: "/#",
   },
   {
     id: 2,
-    name: "Jezmin uniya",
-    designation: "Product Designer",
-    image: "/images/team/team-02.png",
+    name: "George Miracle Theophylus",
+    designation: "Chief Technology Officer",
+    image: "/images/team/rekel.png",
     facebookLink: "/#",
     twitterLink: "/#",
     instagramLink: "/#",
   },
   {
     id: 3,
-    name: "Andrieo Gloree",
-    designation: "App Developer",
-    image: "/images/team/team-03.png",
+    name: "Nabila Zwei ",
+    designation: "Chief Creative Officer",
+    image: "/images/team/nabila.png",
     facebookLink: "/#",
     twitterLink: "/#",
     instagramLink: "/#",
   },
   {
     id: 4,
-    name: "Jackie Sanders",
-    designation: "Content Writer",
-    image: "/images/team/team-04.png",
+    name: "Salwa Naima Purnomo ",
+    designation: "Chief Financial Officer",
+    image: "/images/team/salwa.png",
     facebookLink: "/#",
     twitterLink: "/#",
     instagramLink: "/#",
@@ -50,9 +50,9 @@ const Team = () => {
       <div className="container">
         <div className="mb-[60px]">
           <SectionTitle
-            subtitle="Our Team"
-            title="Meet Our Team"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            subtitle="Team Langkah"
+            title="PEOPLE BEHIND LANGKAH!"
+            paragraph="Halo sobat Langkah!, penasaran nggak sih sama tim keren dibalik aplikasi Langkah"
             width="640px"
             center
           />
