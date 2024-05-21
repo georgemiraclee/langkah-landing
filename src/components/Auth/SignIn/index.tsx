@@ -60,14 +60,14 @@ const Signin = () => {
               <div className="mb-10 text-center">
                 <Link href="/" className="mx-auto inline-block max-w-[160px]">
                   <Image
-                    src="/images/logo/logo.svg"
+                    src="/images/logo/logo.png"
                     alt="logo"
                     width={140}
                     height={30}
                     className="dark:hidden"
                   />
                   <Image
-                    src="/images/logo/logo-white.svg"
+                    src="/images/logo/logo.png"
                     alt="logo"
                     width={140}
                     height={30}
@@ -85,12 +85,6 @@ const Signin = () => {
                 </span>
               </span>
 
-              <SwitchOption
-                isPassword={isPassword}
-                setIsPassword={setIsPassword}
-              />
-
-              {isPassword ? (
                 <form onSubmit={(e) => e.preventDefault()}>
                   <div className="mb-[22px]">
                     <input
@@ -99,7 +93,7 @@ const Signin = () => {
                       onChange={(e) =>
                         setLoginData({ ...loginData, email: e.target.value })
                       }
-                      className="w-full rounded-md border border-stroke bg-transparent px-5 py-3 text-base text-dark outline-none transition placeholder:text-dark-6 focus:border-primary focus-visible:shadow-none dark:border-dark-3 dark:text-white dark:focus:border-primary"
+                      className="w-full rounded-md border border-stroke bg-transparent px-5 py-3 text-base text-dark outline-none transition placeholder:text-dark-6 focus:border-[#81B6BE] focus-visible:shadow-none dark:border-dark-3 dark:text-white dark:focus:border-[#81B6BE]"
                     />
                   </div>
                   <div className="mb-[22px]">
@@ -109,33 +103,29 @@ const Signin = () => {
                       onChange={(e) =>
                         setLoginData({ ...loginData, password: e.target.value })
                       }
-                      className="w-full rounded-md border border-stroke bg-transparent px-5 py-3 text-base text-dark outline-none transition placeholder:text-dark-6 focus:border-primary focus-visible:shadow-none dark:border-dark-3 dark:text-white dark:focus:border-primary"
+                      className="w-full rounded-md border border-stroke bg-transparent px-5 py-3 text-base text-dark outline-none transition placeholder:text-dark-6 focus:border-[#81B6BE] focus-visible:shadow-none dark:border-dark-3 dark:text-white dark:focus:border-[#81B6BE]"
                     />
                   </div>
                   <div className="mb-9">
                     <button
                       onClick={loginUser}
                       type="submit"
-                      className="flex w-full cursor-pointer items-center justify-center rounded-md border border-primary bg-primary px-5 py-3 text-base text-white transition duration-300 ease-in-out hover:bg-primary/90"
+                      className="flex w-full cursor-pointer items-center justify-center rounded-md border border-[#81B6BE] bg-[#81B6BE] px-5 py-3 text-base text-white transition duration-300 ease-in-out hover:bg-[#81B6BE]/90"
                     >
-                      Sign In {loading && <Loader />}
+                    Masuk {loading && <Loader />}
                     </button>
                   </div>
                 </form>
-              ) : (
-                <MagicLink />
-              )}
-
               <Link
                 href="/forgot-password"
-                className="mb-2 inline-block text-base text-dark hover:text-primary dark:text-white dark:hover:text-primary"
+                className="mb-2 inline-block text-base text-dark hover:text-[#81B6BE] dark:text-white dark:hover:text-[#81B6BE]"
               >
-                Forget Password?
+                Lupa Password?
               </Link>
               <p className="text-body-secondary text-base">
-                Not a member yet?{" "}
-                <Link href="/signup" className="text-primary hover:underline">
-                  Sign Up
+                Belum Daftar?{" "}
+                <Link href="/signup" className="text-[#81B6BE] hover:underline">
+                  Daftar
                 </Link>
               </p>
 
